@@ -1,0 +1,23 @@
+Sl. No.,Term,Pop Hits,Count,Fold Enrichment,FDR
+1,Viral protein interaction with cytokine and cytokine receptor,95,18,3.28 ,5.46E-03
+2,Metabolic pathways,1647,131,1.38 ,5.46E-03
+3,Cytokine-cytokine receptor interaction,340,39,1.98 ,5.46E-03
+4,Peroxisome,83,16,3.34 ,5.46E-03
+5,Fanconi anemia pathway,52,12,3.99 ,8.20E-03
+6,DNA replication,36,10,4.81 ,8.20E-03
+7,IL-17 signaling pathway,95,16,2.91 ,1.49E-02
+8,Base excision repair,44,10,3.93 ,3.06E-02
+9,Cysteine and methionine metabolism,54,11,3.52 ,3.18E-02
+10,Biosynthesis of amino acids,74,13,3.04 ,3.18E-02
+11,Biosynthesis of cofactors,155,20,2.23 ,4.26E-02
+12,Inflammatory bowel disease,69,12,3.01 ,4.91E-02
+13,Th17 cell differentiation,114,16,2.43 ,5.52E-02
+14,Rheumatoid arthritis,104,15,2.50 ,5.72E-02
+15,Hematopoietic cell lineage,110,15,2.36 ,8.77E-02
+16,TNF signaling pathway,134,17,2.20 ,8.77E-02
+17,Human T-cell leukemia virus 1 infection,237,25,1.83 ,9.56E-02
+18,Nucleotide excision repair,59,10,2.93 ,1.12E-01
+19,Chemokine signaling pathway,191,21,1.90 ,1.18E-01
+20,Amoebiasis,119,15,2.18 ,1.35E-01
+21,Mismatch repair,23,6,4.51 ,1.36E-01
+22,Antigen processing and presentation,85,12,2.44 ,1.37E-01

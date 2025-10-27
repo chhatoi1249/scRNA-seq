@@ -1,0 +1,7 @@
+Enrichment FDR,nGenes,Pathway Genes,Fold Enrichment,Pathway,URL,Genes,,,,
+0.029067814,4,11,23.41457124,Heart trabecula formation,https://amigo.geneontology.org/amigo/term/GO:0060347,SRF FKBP1A-2 FKBP1A ADGRG6,,,,
+0.029067814,26,653,2.563770052,Response to cytokine,https://amigo.geneontology.org/amigo/term/GO:0034097,PDE1B ACTG1 IL12RB2 UBD XCL2 SRF EBI3 IL7 CYP27B1 CXCL16 ACKR3 TNFRSF21 CSF3 CCR6 TNFRSF13C MSC RPLP0 IRF7 FKBP1A-2 LEF1 IL2RG STK39 LOC504548 FKBP1A CCR7 PMM1,,,,
+,,,,,,,,,,
+,,,,,Sl. No.,Pathway,nGenes,Pathway Genes,Fold Enrichment,Enrichment FDR
+,,,,,1,Heart trabecula formation,4,11,23.41,2.91E-02
+,,,,,2,Response to cytokine,26,653,2.56,2.91E-02

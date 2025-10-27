@@ -1,0 +1,36 @@
+Sl. No.,Pathway,Pathway Genes,nGenes,Fold Enrichment,Enrichment FDR
+1,DNA replication,160,34,3.7,1.45E-07
+2,DNA metabolic process,639,77,2.1,1.49E-06
+3,DNA-templated DNA replication,111,24,3.76,2.85E-05
+4,DNA repair,395,49,2.16,3.76E-04
+5,Organic cyclic compound metabolic process,2688,213,1.38,3.76E-04
+6,DNA recombination,192,30,2.72,4.57E-04
+7,Response to organic substance,1981,164,1.44,4.57E-04
+8,Heterocycle metabolic process,2460,196,1.39,4.57E-04
+9,Cellular aromatic compound metabolic process,2513,200,1.38,4.57E-04
+10,Cellular response to DNA damage stimulus,617,66,1.86,4.75E-04
+11,Chromosome segregation,260,36,2.41,4.79E-04
+12,Pos. reg. of cellular process,4640,333,1.25,6.38E-04
+13,Response to cytokine,653,68,1.81,6.51E-04
+14,Chromosome separation,25,9,6.26,2.25E-03
+15,Cellular response to stress,1257,110,1.52,2.25E-03
+16,Immune system process,1711,141,1.43,2.25E-03
+17,Reg. of T cell activation,283,36,2.21,2.27E-03
+18,Pos. reg. of immune system process,698,69,1.72,2.41E-03
+19,Nucleobase-containing compound metabolic process,2340,182,1.35,2.70E-03
+20,Nuclear chromosome segregation,209,29,2.41,2.71E-03
+21,Organelle fission,299,37,2.15,2.71E-03
+22,Reg. of immune system process,1158,101,1.52,4.12E-03
+23,Cellular response to cytokine stimulus,597,60,1.75,4.55E-03
+24,Nuclear division,274,34,2.16,4.70E-03
+25,Response to stress,2527,192,1.32,4.70E-03
+26,Neg. reg. of response to DNA damage stimulus,67,14,3.63,5.03E-03
+27,Homoserine metabolic process,5,4,13.91,9.31E-03
+28,Transsulfuration,5,4,13.91,9.31E-03
+29,Response to dehydroepiandrosterone,5,4,13.91,9.31E-03
+30,Response to 11-deoxycorticosterone,5,4,13.91,9.31E-03
+31,Mitotic sister chromatid segregation,109,18,2.87,9.31E-03
+32,Mitotic cell cycle,524,53,1.76,9.31E-03
+33,Small molecule metabolic process,1380,114,1.44,9.31E-03
+34,Reg. of T-helper 1 type immune response,19,7,6.41,9.45E-03
+35,Immune response,995,87,1.52,9.45E-03

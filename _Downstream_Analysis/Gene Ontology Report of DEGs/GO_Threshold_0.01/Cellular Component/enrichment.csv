@@ -1,0 +1,16 @@
+Sl. No.,Pathway,Pathway Genes,nGenes,Fold Enrichment,Enrichment FDR
+1,Nuclear chromosome,195,29,2.68 ,4.78E-04
+2,Membrane-enclosed lumen,3974,281,1.28 ,4.78E-04
+3,Organelle lumen,3974,281,1.28 ,4.78E-04
+4,Intracellular organelle lumen,3974,281,1.28 ,4.78E-04
+5,Nuclear lumen,3568,252,1.27 ,1.74E-03
+6,Nuclear replication fork,34,9,4.78 ,7.14E-03
+7,Peroxisome,117,18,2.78 ,7.14E-03
+8,Microbody,117,18,2.78 ,7.14E-03
+9,Chromosome,1162,95,1.47 ,7.14E-03
+10,Side of membrane,574,54,1.70 ,8.02E-03
+11,Intracellular non-membrane-bounded organelle,4267,286,1.21 ,8.74E-03
+12,Non-membrane-bounded organelle,4268,286,1.21 ,8.74E-03
+13,Nucleotide-excision repair complex,11,5,8.20 ,9.39E-03
+14,Replication fork,64,12,3.38 ,9.39E-03
+15,Nucleoplasm,3148,218,1.25 ,9.39E-03

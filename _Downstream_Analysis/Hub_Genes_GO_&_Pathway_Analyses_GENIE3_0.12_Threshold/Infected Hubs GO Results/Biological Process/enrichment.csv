@@ -1,0 +1,23 @@
+Sl. No.,Pathway,Pathway Genes,nGenes,Fold Enrichment,Enrichment FDR
+1,Response to dehydroepiandrosterone,5,4,440.19 ,1.87E-08
+2,Response to 11-deoxycorticosterone,5,4,440.19 ,1.87E-08
+3,Response to mineralocorticoid,11,4,200.09 ,8.17E-07
+4,Response to progesterone,14,4,157.21 ,1.85E-06
+5,Response to corticosteroid,49,5,56.15 ,4.31E-06
+6,Response to estradiol,33,4,66.70 ,4.92E-05
+7,Eosinophil chemotaxis,13,3,126.98 ,1.60E-04
+8,Eosinophil migration,13,3,126.98 ,1.60E-04
+9,Response to steroid hormone,113,5,24.35 ,1.62E-04
+10,Chemokine-mediated signaling pathway,73,4,30.15 ,7.47E-04
+11,Response to chemokine,81,4,27.17 ,9.12E-04
+12,Cellular response to chemokine,81,4,27.17 ,9.12E-04
+13,Response to ketone,82,4,26.84 ,9.12E-04
+14,Monocyte chemotaxis,31,3,53.25 ,1.31E-03
+15,Response to alcohol,93,4,23.67 ,1.31E-03
+16,Lymphocyte chemotaxis,38,3,43.44 ,2.29E-03
+17,Cellular response to tumor necrosis factor,124,4,17.75 ,3.55E-03
+18,Response to organic cyclic compound,469,6,7.04 ,7.68E-03
+19,Neutrophil chemotaxis,62,3,26.62 ,7.96E-03
+20,Lymphocyte migration,63,3,26.20 ,7.96E-03
+21,Granulocyte chemotaxis,65,3,25.40 ,8.34E-03
+22,Reg. of GTPase activity,316,5,8.71 ,8.87E-03

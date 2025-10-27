@@ -1,0 +1,20 @@
+Sl. No.,Cluster Cell Group,No. of Cells,perc,perc_rounded,,,,,,
+1,Neutrophil,555,13.77171216,13.77,,,,,,
+2,MKI67+ natural killer cell,554,13.74689826,13.75,,,,,,
+3,Monocyte,477,11.83622829,11.84,,,,,,
+4,DEFB4A+ Macrophage,437,10.84367246,10.84,,,Sl. No.,Cluster Identity,Cells per Cluster,Cell Proportion
+5,MKI67+ natural killer cell,418,10.37220844,10.37,,,1,Neutrophil,555,13.77
+6,CD4-CD8-T cell,315,7.816377171,7.82,,,2,MKI67+ natural killer cell,554,13.75
+7,DEFB4A+ Macrophage,287,7.121588089,7.12,,,3,Monocyte,477,11.84
+8,MKI67+ natural killer cell,244,6.054590571,6.05,,,4,DEFB4A+ Macrophage,437,10.84
+9,Monocyte,199,4.937965261,4.94,,,5,MKI67+ natural killer cell,418,10.37
+10,Macrophage I,116,2.878411911,2.88,,,6,CD4-CD8-T cell,315,7.82
+11,CD4-CD8-T cell,99,2.456575682,2.46,,,7,DEFB4A+ Macrophage,287,7.12
+12,CCL11+ Myofibroblast,85,2.109181141,2.11,,,8,MKI67+ natural killer cell,244,6.05
+13,Hepatocyte,84,2.084367246,2.08,,,9,Monocyte,199,4.94
+14,Natural killer cell,80,1.985111663,1.99,,,10,Macrophage I,116,2.88
+15,Pit cell,80,1.985111663,1.99,,,11,CD4-CD8-T cell,99,2.46
+,,,,,,,12,CCL11+ Myofibroblast,85,2.11
+,,,,,,,13,Hepatocyte,84,2.08
+,,,,,,,14,Natural killer cell,80,1.99
+,,,,,,,15,Pit cell,80,1.99

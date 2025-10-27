@@ -1,0 +1,9 @@
+Category,Term,Genes,Count,List Total,Pop Hits,Pop Total,P-Value,Benjamini,Fold Enrichment,Bonferroni,FDR,Fisher Exact
+KEGG_PATHWAY,Cytokine-cytokine receptor interaction,6.49%,5,27,340,9569,1.26e-2,8.49e-1,5.21,7.73e-1,8.49E-01,2.33e-3
+KEGG_PATHWAY,Chemokine signaling pathway,5.19%,4,27,191,9569,1.45e-2,8.49e-1,7.42,8.19e-1,8.49E-01,1.88e-3
+KEGG_PATHWAY,Viral protein interaction with cytokine and cytokine receptor,3.90%,3,27,95,9569,2.72e-2,1.00e+0,11.19,9.60e-1,1.00E+00,2.33e-3
+,,,,,,,,,,,,
+,,,,,Sl. No.,Pathway,nGenes,Pathway Genes,Fold Enrichment,FDR,,
+,,,,,1,Cytokine-cytokine receptor interaction,5,340,5.21,8.49E-01,,
+,,,,,2,Chemokine signaling pathway,4,191,7.42,8.49E-01,,
+,,,,,3,Viral protein interaction with cytokine and cytokine receptor,3,95,11.19,1.00E+00,,

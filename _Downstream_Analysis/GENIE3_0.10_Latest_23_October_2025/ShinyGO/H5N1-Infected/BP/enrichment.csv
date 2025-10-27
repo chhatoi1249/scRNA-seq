@@ -1,0 +1,12 @@
+Enrichment FDR,nGenes,Pathway Genes,Fold Enrichment,Pathway,URL,Genes,,,,,,,,,
+0.000167795,3,5,187.8413793,Response to dehydroepiandrosterone,https://amigo.geneontology.org/amigo/term/GO:1903494,CSN2 CSN1S2 LALBA,,,,,,,,,
+0.000167795,3,5,187.8413793,Response to 11-deoxycorticosterone,https://amigo.geneontology.org/amigo/term/GO:1903496,CSN2 CSN1S2 LALBA,,,,,,,,,
+0.001820739,3,11,85.38244514,Response to mineralocorticoid,https://amigo.geneontology.org/amigo/term/GO:0051385,CSN2 CSN1S2 LALBA,,,,,,,,,
+0.037785447,2,8,78.26724138,Cellular response to granulocyte macrophage colony-stimulating factor stimulus,https://amigo.geneontology.org/amigo/term/GO:0097011,CSF2 ZFP36,,,,Sl. No.,Pathway,nGenes,Pathway Genes,Fold Enrichment,Enrichment FDR
+0.002992028,3,14,67.0862069,Response to progesterone,https://amigo.geneontology.org/amigo/term/GO:0032570,CSN2 CSN1S2 LALBA,,,,1,Response to dehydroepiandrosterone,3,5,187.84,1.68E-04
+0.028636405,3,33,28.46081505,Response to estradiol,https://amigo.geneontology.org/amigo/term/GO:0032355,CSN2 CSN1S2 LALBA,,,,2,Response to 11-deoxycorticosterone,3,5,187.84,1.68E-04
+0.003888283,4,49,25.55665025,Response to corticosteroid,https://amigo.geneontology.org/amigo/term/GO:0031960,CSN2 CSN1S2 ZFP36 LALBA,,,,3,Response to mineralocorticoid,3,11,85.38,1.82E-03
+,,,,,,,,,,4,Cellular response to granulocyte macrophage colony-stimulating factor stimulus,2,8,78.27,3.78E-02
+,,,,,,,,,,5,Response to progesterone,3,14,67.09,2.99E-03
+,,,,,,,,,,6,Response to estradiol,3,33,28.46,2.86E-02
+,,,,,,,,,,7,Response to corticosteroid,4,49,25.56,3.89E-03

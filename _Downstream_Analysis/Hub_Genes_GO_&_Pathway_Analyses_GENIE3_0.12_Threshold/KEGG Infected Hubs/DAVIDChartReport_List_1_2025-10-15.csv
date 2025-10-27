@@ -1,0 +1,6 @@
+Filter by,Cells,Genes
+None,32626,7113
+Non-zero gene count across cells,11627,7113
+Library size,11627,4364
+Mitochondrial content in cells,11627,4030
+All zero values (including cells and genes),11622,4030
