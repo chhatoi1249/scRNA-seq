@@ -1,0 +1,5 @@
+# load("~/R_Go/Raw Combined + Filtered/MT-Genes Filtered Combined/Group_Information_4030.RData")
+# load("~/R_Go/Raw Combined + Filtered/MT-Genes Filtered Combined/Clusters_4030_15Levels.RData")
+X <- data.frame(clusters = clusters_15, groups = v)
+single_cell_experiment_data <- SingleCellExperiment(assays = list(counts = combined_filtered_matrix), colData = X)
+res <- swarnAdjLrt(sce=single_cell_experiment_data,norm.method="DEseq.norm",RNAspike.use=FALSE, maxit = 500)
