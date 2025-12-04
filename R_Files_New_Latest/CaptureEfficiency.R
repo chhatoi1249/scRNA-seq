@@ -25,3 +25,4 @@ ggplot(data = capEff, mapping = aes(x = capEff)) +
         y = "Frequency & Density"
     )
 
+
