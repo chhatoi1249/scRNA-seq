@@ -1,4 +1,6 @@
-SwarnSeq::CapEff(CountData = combined_filtered_matrix, CE.range = c(.01,.5), RNAspike.use = F, method = "") -> capEff
+X <- data.frame(clusters = clusters_15_deseq.norm, groups = v)
+sce <- SingleCellExperiment::SingleCellExperiment(assays = list(counts = combined_filtered_matrix), colData = X)
+SwarnSeq::capEff(sce = sce, CE.range = c(.01,.5), RNAspike.use = F, method = "") -> capEff
 
 capEff <- as.data.frame(capEff)
 library(ggplot2)
@@ -22,3 +24,4 @@ ggplot(data = capEff, mapping = aes(x = capEff)) +
         title = "Cell's Capture Efficiency",
         y = "Frequency & Density"
     )
+
