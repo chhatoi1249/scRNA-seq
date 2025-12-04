@@ -1,0 +1,9 @@
+# SwarnSeq Package Link
+# Repository = https://github.com/nifmd-bbf/SwarnSeq
+
+# Get this package directly in R.
+if (!requireNamespace("devtools", quietly = TRUE)) {
+    install.packages("devtools")
+}
+library(devtools)
+install_github(repo = "nifmd-bbf/SwarnSeq", dependencies = TRUE, build_vignettes = TRUE)
