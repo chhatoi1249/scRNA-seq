@@ -7,3 +7,5 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 library(devtools)
 install_github(repo = "nifmd-bbf/SwarnSeq", dependencies = TRUE, build_vignettes = TRUE)
+# Load the package.
+library(SwarnSeq)
