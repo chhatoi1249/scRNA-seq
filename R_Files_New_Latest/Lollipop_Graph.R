@@ -92,7 +92,7 @@ ggplot(data = enrichment_kegg, mapping = aes(x = `Fold.Enrichment`, y = Pathway,
 
 
 
-# Lollipop Graph for Shing GO Output
+# Lollipop Graph for Shiny GO Output
 enrichment_kegg <- read.csv(file = "C:\\Users\\HP\\Documents\\R_Go\\Raw Combined + Filtered\\MT-Genes Filtered Combined\\Latest_1.01_Low_Resolution_C15\\_Downstream_Analysis\\Gene Ontology Report/GO_Threshold_0.01/Cellular Component/enrichment.csv")
 
 # Lollipop Chart
@@ -181,3 +181,4 @@ ggplot(data = enrichment_kegg, mapping = aes(x = Fold.Enrichment, y = Pathway, c
         x = "Fold Enrichment",
         y = "Significantly Enriched KEGG Pathways"
     )
+
