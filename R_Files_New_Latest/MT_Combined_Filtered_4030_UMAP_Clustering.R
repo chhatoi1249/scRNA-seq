@@ -1,4 +1,4 @@
-
+# Single Cell Cluster Annotation Script
 ########################## Filter the dataset ########################
 
 filter_gene_IDs()
@@ -71,28 +71,24 @@ seu_combined_object$cluster_types <- factor(seu_combined_object$seurat_clusters,
 
 ################################## Final UMAP ##########################
 
-g <- DimPlot(seu_combined_object, group.by = "cluster_types", label = F, label.box = F, pt.size = 1.2, repel = F, reduction = "umap", label.size = 7, alpha = 1)
+g <- DimPlot(seu_combined_object, group.by = "cluster_types", label = F, label.box = F, pt.size = 2.5, repel = F, reduction = "umap", label.size = 7, alpha = 1)
 
 umap_coordinates <- Embeddings(seu_combined_object, "umap")
 
 data_frame <- data.frame(umap_coordinates, cluster = seu_combined_object$cluster_types)
 
 centroids <- aggregate(cbind(umap_1, umap_2) ~ cluster, data = data_frame, mean)
-
-g + geom_text_repel(data = centroids, aes(x = umap_1, y = umap_2, label = cluster), fontface = "bold", size = 7, box.padding = 6, point.padding = 6, segment.color = "black", segment.size = 0.5, max.overlaps = Inf, force = 10, force_pull = 3, max.iter = 1000, direction = "both", min.segment.length = 0) +
+g + geom_text_repel(data = centroids, aes(x = umap_1, y = umap_2, label = cluster), fontface = "bold", size = 11, box.padding = 8, point.padding = 6, segment.color = "black", segment.size = 1, max.overlaps = Inf, force = 10, force_pull = 3, max.iter = 1000, direction = "both", min.segment.length = 0) +
     theme_bw() + 
     labs(title = "UMAP CLUSTERS", color = "Cell Types") + 
-    theme(title = element_text(size = 30, face = "bold"),
-          legend.text = element_text(size = 20, face = "bold"),
+    theme(title = element_text(size = 55, face = "bold"),
+          legend.text = element_text(size = 40, face = "bold"),
           legend.position = "left",
-          legend.title = element_text(size = 30, face = "bold", hjust = .5),
-          axis.title = element_text(size = 25, face = "bold"),
-          axis.text.x = element_text(size = 20, face = "bold", margin = margin(t = 5)),
-          axis.text.y = element_text(size = 20, face = "bold", margin = margin(r = 5)),
-          axis.ticks = element_line(linewidth = 1)) + 
-    guides(color = guide_legend(override.aes = list(size = 12, shape = 16)))
+          legend.title = element_text(size = 55, face = "bold", hjust = .5),
+          axis.title = element_text(size = 35, face = "bold"),
+          axis.text.x = element_text(size = 30, face = "bold", margin = margin(t = 5)),
+          axis.text.y = element_text(size = 30, face = "bold", margin = margin(r = 5)),
+          axis.ticks = element_line(linewidth = 2)) + 
+    guides(color = guide_legend(override.aes = list(size = 25, shape = 16)))
 
 ################################# Done ##############################
-
-seu_combined_object$seurat_clusters -> clusters_15_deseq.norm
-sum(clusters_15_deseq.norm == clusters_15)
